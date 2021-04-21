@@ -1,5 +1,5 @@
 /*
-8462 ¹è¿­ÀÇ Èû
+8462
 Sqrt decomposition, Mo's algorithm
 http://highalps.tistory.com/11
 */
