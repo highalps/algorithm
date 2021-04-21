@@ -1,2 +1,4 @@
-# problem-solving-boj
-http://highalps.tistory.com/
+# Algorithm
+
+- [Baekjoon Online Judge](./baekjoon)
+- [LeetCode](./leetcode)
