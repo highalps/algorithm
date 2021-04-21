@@ -25,7 +25,7 @@ struct MCMF
 		this->capacity[a][b] = cap;
 		this->cost[a][b] = co;
 	}
-	void matching(int S, int E, int n) // ÇÃ·ÎÀÌµå-¿ö¼È·Î °Å¸® °è»ê
+	void matching(int S, int E, int n) // ï¿½Ã·ï¿½ï¿½Ìµï¿½-ï¿½ï¿½ï¿½È·ï¿½ ï¿½Å¸ï¿½ ï¿½ï¿½ï¿½
 	{
 		for (int i = 1; i <= n; i++)adj[i][i] = 0;
 
@@ -112,7 +112,7 @@ int main()
 		{
 			scanf("%d", &v);
 			if (v) {
-				mcmf.add_edge(i + n, E, 1, 0); // Á¤Á¡°ú ½ÌÅ©¿¬°á
+				mcmf.add_edge(i + n, E, 1, 0); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½
 				temp.push_back(i + n);
 			}
 
@@ -121,7 +121,7 @@ int main()
 		{
 			scanf("%d", &v);
 			if (v) {
-				mcmf.add_edge(S, i, 1, 0); // ¼Ò½º¿Í ÄÚÀÎ¿¬°á
+				mcmf.add_edge(S, i, 1, 0); // ï¿½Ò½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Î¿ï¿½ï¿½ï¿½
 			}
 		}
 		mcmf.matching(S, E, n);
